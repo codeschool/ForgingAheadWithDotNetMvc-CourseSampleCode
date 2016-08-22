@@ -1,0 +1,10 @@
+@model List<ForgingAhead.Models.Character>
+<h1>
+    Active Characters
+</h1>
+<div class="row">
+    @foreach(var item in Model)
+    {
+        @Html.Partial("_CharacterSheet",item)
+    }
+</div>

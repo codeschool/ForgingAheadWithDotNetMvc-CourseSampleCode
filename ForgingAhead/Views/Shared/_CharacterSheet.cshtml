@@ -1,0 +1,56 @@
+@model ForgingAhead.Models.Character
+
+<div class="col-md-5 bordered-div">
+    <h4>
+        @Model.Name
+    </h4>
+    <hr/>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label asp-for="Level" class="control-label col-md-8"></label>
+            <div class="col-sm-3">
+                <p class="form-control-static">@Model.Level</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Strength" class="control-label col-md-8"></label>
+            <div class="col-sm-3">
+                <p class="form-control-static">@Model.Strength</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Dexterity" class="control-label col-md-8"></label>
+            <div class="col-sm-3">
+                <p class="form-control-static">@Model.Dexterity</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Intelligence" class="control-label col-md-8"></label>
+            <div class="col-sm-3">
+                <p class="form-control-static">@Model.Intelligence</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-bordered table-striped table-condensed">
+            <thead class="table-header">
+                <tr>
+                    <th>Name</th>
+                    <th>Att</th>
+                    <th>Def</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in Model.Equipment)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Attack</td>
+                        <td>@item.Defense</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-md-1"></div>
