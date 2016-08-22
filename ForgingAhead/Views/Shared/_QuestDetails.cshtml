@@ -1,0 +1,28 @@
+@model ForgingAhead.Models.Quest
+
+<div class="col-md-5 bordered-div">
+  <h4>
+    @Model.Name
+  </h4>
+  <hr/>
+  <div class="col-md-12">
+    <table class="table table-bordered table-striped table-condensed">
+      <thead class="table-header">
+        <tr>
+          <th>Name</th>
+          <th>Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach(var item in Model.Characters)
+        {
+          <tr>
+            <td>@item.Name</td>
+            <td>@item.Level</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="col-md-1"></div>

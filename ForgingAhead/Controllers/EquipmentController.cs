@@ -28,6 +28,7 @@ namespace ForgingAhead.Controllers
         public IActionResult Create(Equipment equipment)
         {
             _context.Equipment.Add(equipment);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
         
@@ -42,12 +43,13 @@ namespace ForgingAhead.Controllers
         }
         
         [HttpGet]
+        [Route("Equipment/{name}/Details")]
         public IActionResult Details(string name)
         {
             ViewData["Title"] = name;
             
             var model = _context.Equipment.FirstOrDefault(e => e.Name == name);
-            return View();
+            return View(model);
         }
         
         //Update
