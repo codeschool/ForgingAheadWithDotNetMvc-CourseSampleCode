@@ -20,10 +20,11 @@ We did meet most of our goals but we never actually built out the functionality 
 ###Your Challenge is to impliment the following
 - [ ] Clone or Fork this repository so you can make changes of your own
 - [ ] Change our database from "InMemory" to "SQLLite" (or whatever you prefer)
-- [ ] A View that lets you add equipment to our characters
-- [ ] An action to add a piece of equipment to a character
-- [ ] A View that lets you add charcters to our quests
-- [ ] An action to add a character to a quest
+- [ ] Add a View that lets you add equipment to our characters
+- [ ] Add an action to add a piece of equipment to a character
+- [ ] Add a View that lets you add charcters to our quests
+- [ ] Add an action to add a character to a quest
 - [ ] Make the Equipment Details view nicer
+- [ ] Have fun!
 
 (Note: While the course covers most of what you need to do this, I strongly recommend reviewing the watch us build on this course to give you a better step by step before attempting this challenge)
