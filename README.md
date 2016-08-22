@@ -9,6 +9,10 @@ To run this code, just clone the repo and make sure you've got the following ins
 2. .NET Core, which you can directly from Microsoft's [.NET Core download page](https://www.microsoft.com/net/core)
 3. If you're running from command line, goto to the project's root directory and type `dotnet restore` first, and then `dotnet run` to build and run the application so that it's available locally at http://localhost:5000.
 
+## Post Course Challenge
+
+If you look in the root of this repository I've added a "Post Course Challenge". This is purely for fun for those who would like to complete this project. Just check out the PostCourseChallenge.md file for details on the challenge. (Note: this is just for fun, as well as exposing you to a typical task you might do as a software developer)
+
 ## .NET auto-generated README
 
 When you create a .NET project from a template, it auto-generates a README.  We've left the contents of that README below in case you're interested.  Have fun!
