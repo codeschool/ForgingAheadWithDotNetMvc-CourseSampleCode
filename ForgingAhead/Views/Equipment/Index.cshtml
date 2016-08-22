@@ -1,10 +1,18 @@
 @model List<ForgingAhead.Models.Equipment>
+
+@section header{
+    <meta name="description" content="Lists all equipment in ForgingAhead.">
+} 
+
 <h1>
     Equipment
 </h1>
+<p>
+    <a asp-action="Create" asp-controller="Character">Create new character</a>
+</p>
 <ul>
     @foreach(var item in Model)
     {
-        <li>@item.Name</li>
+        <li><a asp-action="Details" asp-controller="Equipment" asp-route-name="@item.Name">@item.Name</a></li>
     }
 </ul>
