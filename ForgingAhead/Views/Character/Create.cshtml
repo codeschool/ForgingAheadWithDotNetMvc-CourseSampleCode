@@ -1,4 +1,4 @@
-@model ForgingAhead.Models.Character
+﻿@model ForgingAhead.Models.Character
 <h2>
     Create Character
 </h2>
@@ -6,12 +6,12 @@
 <form asp-action="Create" asp-controller="Character">
     <div class="form-horizontal">
         <h4>Character</h4>
-        <hr/>
+        <hr />
         <div class="form-group">
             <div class="row">
                 <label class="control-label col-md-2" asp-for="Name"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="Name"/>
+                    <input class="form-control" asp-for="Name" />
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
             <div class="row">
                 <label class="control-label col-md-2" asp-for="IsActive"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="IsActive"/>
+                    <input class="form-control" asp-for="IsActive" />
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="row">
                 <label class="control-label col-md-2" asp-for="Level"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="Level"/>
+                    <input class="form-control" asp-for="Level" />
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="row">
                 <label class="control-label col-md-2" asp-for="Strength"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="Strength"/>
+                    <input class="form-control" asp-for="Strength" />
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
             <div class="row">
                 <label class="control-label col-md-2" asp-for="Dexterity"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="Dexterity"/>
+                    <input class="form-control" asp-for="Dexterity" />
                 </div>
             </div>
         </div>
@@ -51,13 +51,13 @@
             <div class="row">
                 <label class="control-label col-md-2" asp-for="Intelligence"></label>
                 <div class="col-md-10">
-                    <input class="form-control" asp-for="Intelligence"/>
+                    <input class="form-control" asp-for="Intelligence" />
                 </div>
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default"/>
+                <input type="submit" value="Create" class="btn btn-default" />
                 <div asp-validation-summary="All"></div>
             </div>
         </div>

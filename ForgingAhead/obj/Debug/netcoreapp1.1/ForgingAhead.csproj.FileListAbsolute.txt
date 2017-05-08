@@ -1,0 +1,18 @@
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.deps.json
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.runtimeconfig.json
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.runtimeconfig.dev.json
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.dll
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.csprojResolveAssemblyReference.cache
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.AssemblyInfo.cs
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.pdb
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.dll
+c:\users\ericjfisher\documents\visual studio 2017\Projects\ForgingAhead\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.pdb
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.deps.json
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.runtimeconfig.json
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.runtimeconfig.dev.json
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.dll
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\bin\Debug\netcoreapp1.1\ForgingAhead.pdb
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.csprojResolveAssemblyReference.cache
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.AssemblyInfo.cs
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.dll
+C:\Users\ericjfisher\Documents\GitHub\ForgingAheadWithDotNetMvc-CourseSampleCode\ForgingAhead\obj\Debug\netcoreapp1.1\ForgingAhead.pdb

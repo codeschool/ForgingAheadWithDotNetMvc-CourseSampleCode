@@ -1,23 +1,23 @@
-@model ForgingAhead.Models.Quest
+﻿@model ForgingAhead.Models.Quest
 <h2>
-  Create Quest
+    Create Quest
 </h2>
 
-<form asp-action="Create" asp-controller="Quest" >
-  <div>
-    <h4>Quest</h4>
-    <hr/>
+<form asp-action="Create" asp-controller="Quest">
     <div>
-      <label asp-for="Name"></label>
-      <input asp-for="Name"/>
+        <h4>Quest</h4>
+        <hr />
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label asp-for="IsActive"></label>
+            <input asp-for="IsActive" />
+        </div>
+        <div>
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+        <div asp-validation-summary="All"></div>
     </div>
-    <div>
-      <label asp-for="IsActive"></label>
-      <input asp-for="IsActive"/>
-    </div>
-    <div>
-      <input type="submit" value="Create" class="btn btn-default"/>
-    </div>
-    <div asp-validation-summary="All"></div>
-  </div>
 </form> 

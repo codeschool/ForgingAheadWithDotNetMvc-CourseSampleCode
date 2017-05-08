@@ -1,10 +1,10 @@
-@model ForgingAhead.Models.Character
+﻿@model ForgingAhead.Models.Character
 
 <div class="col-md-5 bordered-div">
     <h4>
         @Model.Name
     </h4>
-    <hr/>
+    <hr />
     <div class="col-md-6">
         <div class="form-group">
             <label asp-for="Level" class="control-label col-md-8"></label>
@@ -41,7 +41,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach(var item in Model.Equipment)
+                @foreach (var item in Model.Equipment)
                 {
                     <tr>
                         <td>@item.Name</td>
