@@ -10,7 +10,7 @@ namespace ForgingAhead.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseInMemoryDatabase();
+            options.UseInMemoryDatabase("default");
             base.OnConfiguring(options);
         }
     }
